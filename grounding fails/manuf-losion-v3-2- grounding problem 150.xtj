@@ -1,0 +1,1134 @@
+{
+    "version": 1.1,
+    "fileType": "HyperC Project File in XTJ Format",
+    "fileName": "",
+    "created": 1596581653838,
+    "modified": 1596581653838,
+    "uuid": "",
+    "projectName": "untitled_project",
+    "projectDescription": "",
+    "tableData": [
+        {
+            "id": "msource_1_1596550278453",
+            "name": "PO",
+            "provider": "gsheets",
+            "source": "https://docs.google.com/spreadsheets/d/19Dht09YPTgvELRJKzeLO5nhS1PaQyGTCXx5K_cA-iOM/edit#gid=1002796552",
+            "records": [
+                {
+                    "recid": 1,
+                    "A": "Date ordered",
+                    "B": "Material",
+                    "C": "Cost",
+                    "D": "Amount ordered",
+                    "E": "Date received",
+                    "F": "Amount consumed",
+                    "G": "Target order",
+                    "H": "Place",
+                    "I": "Wait time",
+                    "J": "Used for production date",
+                    "K": "Used"
+                },
+                {
+                    "recid": 2,
+                    "A": "0",
+                    "B": "-",
+                    "C": "0",
+                    "D": "0",
+                    "E": "0",
+                    "F": "0",
+                    "G": "-",
+                    "H": "-",
+                    "I": "0",
+                    "J": "0",
+                    "K": "Yes"
+                },
+                {
+                    "recid": 3,
+                    "A": "8",
+                    "B": "element2",
+                    "C": "1",
+                    "D": "6",
+                    "E": "9",
+                    "F": "0",
+                    "G": "o2",
+                    "H": "place4",
+                    "I": "0",
+                    "J": "9",
+                    "K": "No"
+                }
+            ]
+        },
+        {
+            "id": "msource_2_1596550316850",
+            "name": "Orders",
+            "provider": "gsheets",
+            "source": "https://docs.google.com/spreadsheets/d/19Dht09YPTgvELRJKzeLO5nhS1PaQyGTCXx5K_cA-iOM/edit#gid=0",
+            "records": [
+                {
+                    "recid": 1,
+                    "A": "product",
+                    "B": "amount odered",
+                    "C": "amount produced",
+                    "D": "Finished",
+                    "E": "date",
+                    "F": "Id",
+                    "G": "current component",
+                    "H": "at place"
+                },
+                {
+                    "recid": 2,
+                    "A": "product1",
+                    "B": "2",
+                    "C": "2",
+                    "D": "No",
+                    "E": "9",
+                    "F": "o1",
+                    "G": "1",
+                    "H": "-"
+                },
+                {
+                    "recid": 3,
+                    "A": "product2",
+                    "B": "3",
+                    "C": "3",
+                    "D": "Yes",
+                    "E": "10",
+                    "F": "o2",
+                    "G": "2",
+                    "H": "-"
+                },
+                {
+                    "recid": 4,
+                    "A": "product3",
+                    "B": "4",
+                    "C": "4",
+                    "D": "No",
+                    "E": "11",
+                    "F": "o3",
+                    "G": "2",
+                    "H": "place2"
+                },
+                {
+                    "recid": 5,
+                    "A": "product2",
+                    "B": "3",
+                    "C": "3",
+                    "D": "No",
+                    "E": "11",
+                    "F": "o4",
+                    "G": "2",
+                    "H": "-"
+                }
+            ]
+        },
+        {
+            "id": "msource_3_1596550351920",
+            "name": "Product receipts",
+            "provider": "gsheets",
+            "source": "https://docs.google.com/spreadsheets/d/19Dht09YPTgvELRJKzeLO5nhS1PaQyGTCXx5K_cA-iOM/edit#gid=1038193008",
+            "records": [
+                {
+                    "recid": 1,
+                    "A": "product",
+                    "B": "part",
+                    "C": "volume"
+                },
+                {
+                    "recid": 2,
+                    "A": "product1",
+                    "B": "element1",
+                    "C": "1"
+                },
+                {
+                    "recid": 3,
+                    "A": "product2",
+                    "B": "element2",
+                    "C": "2"
+                },
+                {
+                    "recid": 4,
+                    "A": "product2",
+                    "B": "element3",
+                    "C": "1"
+                },
+                {
+                    "recid": 5,
+                    "A": "product3",
+                    "B": "element1",
+                    "C": "2"
+                },
+                {
+                    "recid": 6,
+                    "A": "product3",
+                    "B": "element2",
+                    "C": "1"
+                }
+            ]
+        },
+        {
+            "id": "msource_4_1596550468094",
+            "name": "Purchase matrix",
+            "provider": "gsheets",
+            "source": "https://docs.google.com/spreadsheets/d/19Dht09YPTgvELRJKzeLO5nhS1PaQyGTCXx5K_cA-iOM/edit#gid=2010464127",
+            "records": [
+                {
+                    "recid": 1,
+                    "A": "Material",
+                    "B": "Time to receive",
+                    "C": "Cost"
+                },
+                {
+                    "recid": 2,
+                    "A": "element1",
+                    "B": "1",
+                    "C": "1"
+                },
+                {
+                    "recid": 3,
+                    "A": "element2",
+                    "B": "1",
+                    "C": "1"
+                },
+                {
+                    "recid": 4,
+                    "A": "element3",
+                    "B": "1",
+                    "C": "1"
+                },
+                {
+                    "recid": 5,
+                    "A": "element4",
+                    "B": "1",
+                    "C": "1"
+                }
+            ]
+        },
+        {
+            "id": "msource_5_1596550745480",
+            "name": "Product pipeline",
+            "provider": "gsheets",
+            "source": "https://docs.google.com/spreadsheets/d/19Dht09YPTgvELRJKzeLO5nhS1PaQyGTCXx5K_cA-iOM/edit#gid=196581046",
+            "records": [
+                {
+                    "recid": 1,
+                    "A": "product id",
+                    "B": "product type",
+                    "C": "parts assembled",
+                    "D": "Status",
+                    "E": "At table",
+                    "F": "Day of status",
+                    "G": "Hour of status",
+                    "H": "Minute of status"
+                },
+                {
+                    "recid": 2,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 3,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 4,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 5,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 6,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 7,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 8,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 9,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 10,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 11,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 12,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 13,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 14,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 15,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 16,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 17,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                },
+                {
+                    "recid": 18,
+                    "A": "-",
+                    "B": "-",
+                    "C": "-",
+                    "D": "-",
+                    "E": "-",
+                    "F": "-",
+                    "G": "-",
+                    "H": "-"
+                }
+            ]
+        },
+        {
+            "id": "msource_9_1596550857987",
+            "name": "Calendar",
+            "provider": "gsheets",
+            "source": "https://docs.google.com/spreadsheets/d/19Dht09YPTgvELRJKzeLO5nhS1PaQyGTCXx5K_cA-iOM/edit#gid=2074876014",
+            "records": [
+                {
+                    "recid": 1,
+                    "A": "Id",
+                    "B": "date"
+                },
+                {
+                    "recid": 2,
+                    "A": "0",
+                    "B": "-"
+                },
+                {
+                    "recid": 3,
+                    "A": "1",
+                    "B": "01/08/2020"
+                },
+                {
+                    "recid": 4,
+                    "A": "2",
+                    "B": "02/08/2020"
+                },
+                {
+                    "recid": 5,
+                    "A": "3",
+                    "B": "03/08/2020"
+                },
+                {
+                    "recid": 6,
+                    "A": "4",
+                    "B": "04/08/2020"
+                },
+                {
+                    "recid": 7,
+                    "A": "5",
+                    "B": "05/08/2020"
+                },
+                {
+                    "recid": 8,
+                    "A": "6",
+                    "B": "06/08/2020"
+                },
+                {
+                    "recid": 9,
+                    "A": "7",
+                    "B": "07/08/2020"
+                },
+                {
+                    "recid": 10,
+                    "A": "8",
+                    "B": "08/08/2020"
+                },
+                {
+                    "recid": 11,
+                    "A": "9",
+                    "B": "09/08/2020"
+                },
+                {
+                    "recid": 12,
+                    "A": "10",
+                    "B": "10/08/2020"
+                },
+                {
+                    "recid": 13,
+                    "A": "11",
+                    "B": "11/08/2020"
+                },
+                {
+                    "recid": 14,
+                    "A": "12",
+                    "B": "12/08/2020"
+                },
+                {
+                    "recid": 15,
+                    "A": "13",
+                    "B": "13/08/2020"
+                },
+                {
+                    "recid": 16,
+                    "A": "14",
+                    "B": "14/08/2020"
+                },
+                {
+                    "recid": 17,
+                    "A": "15",
+                    "B": "15/08/2020"
+                },
+                {
+                    "recid": 18,
+                    "A": "16",
+                    "B": "16/08/2020"
+                },
+                {
+                    "recid": 19,
+                    "A": "17",
+                    "B": "17/08/2020"
+                },
+                {
+                    "recid": 20,
+                    "A": "18",
+                    "B": "18/08/2020"
+                },
+                {
+                    "recid": 21,
+                    "A": "19",
+                    "B": "19/08/2020"
+                },
+                {
+                    "recid": 22,
+                    "A": "20",
+                    "B": "20/08/2020"
+                },
+                {
+                    "recid": 23,
+                    "A": "21",
+                    "B": "21/08/2020"
+                }
+            ]
+        },
+        {
+            "id": "msource_13_1596550960845",
+            "name": "Products",
+            "provider": "gsheets",
+            "source": "https://docs.google.com/spreadsheets/d/19Dht09YPTgvELRJKzeLO5nhS1PaQyGTCXx5K_cA-iOM/edit#gid=1948385979",
+            "records": [
+                {
+                    "recid": 1,
+                    "A": "name",
+                    "B": "manufacturing time"
+                },
+                {
+                    "recid": 2,
+                    "A": "product1",
+                    "B": "1"
+                },
+                {
+                    "recid": 3,
+                    "A": "product2",
+                    "B": "1"
+                },
+                {
+                    "recid": 4,
+                    "A": "product3",
+                    "B": "1"
+                }
+            ]
+        },
+        {
+            "id": "msource_31_1596552722278",
+            "name": "Material usage list",
+            "provider": "gsheets",
+            "source": "https://docs.google.com/spreadsheets/d/19Dht09YPTgvELRJKzeLO5nhS1PaQyGTCXx5K_cA-iOM/edit#gid=1776408914",
+            "records": [
+                {
+                    "recid": 1,
+                    "A": "date",
+                    "B": "material",
+                    "C": "product ",
+                    "D": "volume",
+                    "E": "order"
+                },
+                {
+                    "recid": 2,
+                    "A": "1",
+                    "B": "element1",
+                    "C": "product1",
+                    "D": "2",
+                    "E": "o1"
+                }
+            ]
+        },
+        {
+            "id": "msource_44_1596553054138",
+            "name": "Products formulas",
+            "provider": "gsheets",
+            "source": "https://docs.google.com/spreadsheets/d/19Dht09YPTgvELRJKzeLO5nhS1PaQyGTCXx5K_cA-iOM/edit#gid=172960435",
+            "records": [
+                {
+                    "recid": 1,
+                    "A": "name",
+                    "B": "number of receipts"
+                },
+                {
+                    "recid": 2,
+                    "A": "product1",
+                    "B": "1"
+                },
+                {
+                    "recid": 3,
+                    "A": "product2",
+                    "B": "2"
+                },
+                {
+                    "recid": 4,
+                    "A": "product3",
+                    "B": "2"
+                }
+            ]
+        },
+        {
+            "id": "msource_37_1596553155209",
+            "name": "Product receipts formulas",
+            "provider": "gsheets",
+            "source": "https://docs.google.com/spreadsheets/d/19Dht09YPTgvELRJKzeLO5nhS1PaQyGTCXx5K_cA-iOM/edit#gid=226212185",
+            "records": [
+                {
+                    "recid": 1,
+                    "A": "product",
+                    "B": "part",
+                    "C": "volume",
+                    "D": "Sequence"
+                },
+                {
+                    "recid": 2,
+                    "A": "product1",
+                    "B": "element1",
+                    "C": "1",
+                    "D": "1"
+                },
+                {
+                    "recid": 3,
+                    "A": "product2",
+                    "B": "element2",
+                    "C": "2",
+                    "D": "1"
+                },
+                {
+                    "recid": 4,
+                    "A": "product2",
+                    "B": "element3",
+                    "C": "1",
+                    "D": "2"
+                },
+                {
+                    "recid": 5,
+                    "A": "product3",
+                    "B": "element1",
+                    "C": "2",
+                    "D": "1"
+                },
+                {
+                    "recid": 6,
+                    "A": "product3",
+                    "B": "element2",
+                    "C": "1",
+                    "D": "2"
+                }
+            ]
+        },
+        {
+            "id": "msource_67_1596562885281",
+            "name": "Dashboard",
+            "provider": "gsheets",
+            "source": "https://docs.google.com/spreadsheets/d/19Dht09YPTgvELRJKzeLO5nhS1PaQyGTCXx5K_cA-iOM/edit#gid=383146371",
+            "records": [
+                {
+                    "recid": 1,
+                    "A": "Orders in plan",
+                    "B": "Orders produced",
+                    "C": "Step"
+                },
+                {
+                    "recid": 2,
+                    "A": "4",
+                    "B": "4",
+                    "C": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "msource_49_1596579868011",
+            "name": "Places",
+            "provider": "gsheets",
+            "source": "https://docs.google.com/spreadsheets/d/19Dht09YPTgvELRJKzeLO5nhS1PaQyGTCXx5K_cA-iOM/edit#gid=1080274957",
+            "records": [
+                {
+                    "recid": 1,
+                    "A": "place",
+                    "B": "type",
+                    "C": "capacity",
+                    "D": "current order",
+                    "E": "processed today",
+                    "F": "current date"
+                },
+                {
+                    "recid": 2,
+                    "A": "place1",
+                    "B": "manufacturing",
+                    "C": "2",
+                    "D": "-",
+                    "E": "0",
+                    "F": "0"
+                },
+                {
+                    "recid": 3,
+                    "A": "place2",
+                    "B": "manufacturing",
+                    "C": "2",
+                    "D": "o3",
+                    "E": "1",
+                    "F": "0"
+                },
+                {
+                    "recid": 4,
+                    "A": "place3",
+                    "B": "manufacturing",
+                    "C": "2",
+                    "D": "-",
+                    "E": "0",
+                    "F": "0"
+                },
+                {
+                    "recid": 5,
+                    "A": "place4",
+                    "B": "stock",
+                    "C": "30",
+                    "D": "-",
+                    "E": "0",
+                    "F": "0"
+                }
+            ]
+        }
+    ],
+    "actionData": {
+        "action_1_1596550770749": {
+            "metadata": {
+                "is_required": false,
+                "name": "purchase material",
+                "id": "action_1_1596550770749"
+            },
+            "tables": [
+                {
+                    "changes": [],
+                    "searches": [],
+                    "view_id": "action_1_1596550770749table61596550793989",
+                    "table_id": "msource_4_1596550468094",
+                    "view_name": "RowSelect6 of Purchase matrix",
+                    "table_name": "Purchase matrix",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": ""
+                },
+                {
+                    "changes": [],
+                    "searches": [],
+                    "view_id": "action_1_1596550770749table81596550809455",
+                    "table_id": "msource_2_1596550316850",
+                    "view_name": "RowSelect8 of Orders",
+                    "table_name": "Orders",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": ""
+                },
+                {
+                    "changes": [],
+                    "searches": [],
+                    "view_id": "action_1_1596550770749table151596551064223",
+                    "table_id": "msource_13_1596550960845",
+                    "view_name": "RowSelect15 of Products",
+                    "table_name": "Products",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": "A1='RowSelect8 of Orders'!A1"
+                },
+                {
+                    "changes": [],
+                    "searches": [],
+                    "view_id": "action_1_1596550770749table181596551219933",
+                    "table_id": "msource_3_1596550351920",
+                    "view_name": "RowSelect18 of Product receipts",
+                    "table_name": "Product receipts",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": "AND(B1='RowSelect6 of Purchase matrix'!A1, A1='RowSelect8 of Orders'!A1)"
+                },
+                {
+                    "changes": [],
+                    "searches": [],
+                    "view_id": "action_1_1596550770749table251596551507707",
+                    "table_id": "msource_49_1596579868011",
+                    "view_name": "RowSelect25 of Places",
+                    "table_name": "Places",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": "B1=\"stock\""
+                },
+                {
+                    "changes": [
+                        {
+                            "recid": 3,
+                            "G": "='RowSelect8 of Orders'!F1",
+                            "A": "='RowSelect8 of Orders'!E1-'RowSelect15 of Products'!B1-'RowSelect6 of Purchase matrix'!B1",
+                            "B": "='RowSelect6 of Purchase matrix'!A1",
+                            "C": "='RowSelect6 of Purchase matrix'!C1",
+                            "D": "='RowSelect18 of Product receipts'!C1 *'RowSelect8 of Orders'!B1",
+                            "E": "='RowSelect8 of Orders'!E1-'RowSelect15 of Products'!B1",
+                            "F": "0",
+                            "H": "='RowSelect25 of Places'!A1",
+                            "I": "0",
+                            "K": "No",
+                            "J": "='RowSelect8 of Orders'!E1-'RowSelect15 of Products'!B1"
+                        }
+                    ],
+                    "searches": [],
+                    "view_id": "action_1_1596550770749table71596550795957",
+                    "table_id": "msource_1_1596550278453",
+                    "view_name": "RowSelect7 of PO",
+                    "table_name": "PO",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "add",
+                    "filter": ""
+                }
+            ]
+        },
+        "action_15_1596580651929": {
+            "metadata": {
+                "is_required": false,
+                "name": "Mixer day off ",
+                "id": "action_15_1596580651929"
+            },
+            "tables": [
+                {
+                    "changes": [
+                        {
+                            "recid": 3,
+                            "F": "=F1+1"
+                        }
+                    ],
+                    "searches": [],
+                    "view_id": "action_15_1596580651929table641596580709732",
+                    "table_id": "msource_49_1596579868011",
+                    "view_name": "RowSelect64 of Places",
+                    "table_name": "Places",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": ""
+                }
+            ]
+        },
+        "action_16_1596581011573": {
+            "metadata": {
+                "is_required": false,
+                "name": "Material storing",
+                "id": "action_16_1596581011573"
+            },
+            "tables": [
+                {
+                    "changes": [
+                        {
+                            "recid": 3,
+                            "J": "=J1+1",
+                            "I": "=I1+1"
+                        }
+                    ],
+                    "searches": [],
+                    "view_id": "action_16_1596581011573table661596581041097",
+                    "table_id": "msource_1_1596550278453",
+                    "view_name": "RowSelect66 of PO",
+                    "table_name": "PO",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": ""
+                }
+            ]
+        },
+        "action_11_1596579782190": {
+            "metadata": {
+                "is_required": false,
+                "name": "Select machine for order",
+                "id": "action_11_1596579782190"
+            },
+            "tables": [
+                {
+                    "changes": [
+                        {
+                            "recid": 3,
+                            "H": "='RowSelect55 of Places'!A1"
+                        }
+                    ],
+                    "searches": [],
+                    "view_id": "action_11_1596579782190table471596579912115",
+                    "table_id": "msource_2_1596550316850",
+                    "view_name": "RowSelect47 of Orders",
+                    "table_name": "Orders",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": ""
+                },
+                {
+                    "changes": [
+                        {
+                            "recid": 3,
+                            "E": "=E1+1",
+                            "D": "='RowSelect47 of Orders'!F1"
+                        }
+                    ],
+                    "searches": [],
+                    "view_id": "action_11_1596579782190table551596580293542",
+                    "table_id": "msource_49_1596579868011",
+                    "view_name": "RowSelect55 of Places",
+                    "table_name": "Places",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": "AND( E1<C1 ,  B1=\"manufacturing\")"
+                }
+            ]
+        },
+        "action_3_1596552117889": {
+            "metadata": {
+                "is_required": true,
+                "name": "Use part for manufacturing",
+                "id": "action_3_1596552117889"
+            },
+            "tables": [
+                {
+                    "changes": [],
+                    "searches": [],
+                    "view_id": "action_3_1596552117889table461596553216016",
+                    "table_id": "msource_37_1596553155209",
+                    "view_name": "RowSelect46 of Product receipts formulas",
+                    "table_name": "Product receipts formulas",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": "AND(D1='RowSelect28 of Orders'!G1+1  , A1='RowSelect28 of Orders'!A1 )"
+                },
+                {
+                    "changes": [
+                        {
+                            "recid": 3,
+                            "G": "=G1+1"
+                        }
+                    ],
+                    "searches": [],
+                    "view_id": "action_3_1596552117889table281596552495107",
+                    "table_id": "msource_2_1596550316850",
+                    "view_name": "RowSelect28 of Orders",
+                    "table_name": "Orders",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": ""
+                },
+                {
+                    "changes": [
+                        {
+                            "recid": 3,
+                            "F": "=F1+'RowSelect29 of Product receipts'!C1*'RowSelect28 of Orders'!B1",
+                            "K": "Yes"
+                        }
+                    ],
+                    "searches": [],
+                    "view_id": "action_3_1596552117889table271596552164313",
+                    "table_id": "msource_1_1596550278453",
+                    "view_name": "RowSelect27 of PO",
+                    "table_name": "PO",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": "AND(   B2='RowSelect46 of Product receipts formulas'!B1,   G1='RowSelect28 of Orders'!F1,   K1=\"No\")"
+                },
+                {
+                    "changes": [],
+                    "searches": [],
+                    "view_id": "action_3_1596552117889table291596552501570",
+                    "table_id": "msource_3_1596550351920",
+                    "view_name": "RowSelect29 of Product receipts",
+                    "table_name": "Product receipts",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": "AND(A1='RowSelect28 of Orders'!A1,  b1='RowSelect27 of PO'!B1)"
+                },
+                {
+                    "changes": [],
+                    "searches": [],
+                    "view_id": "action_3_1596552117889table471596553400279",
+                    "table_id": "msource_13_1596550960845",
+                    "view_name": "RowSelect47 of Products",
+                    "table_name": "Products",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": "A1='RowSelect28 of Orders'!A1"
+                },
+                {
+                    "changes": [
+                        {
+                            "recid": 3,
+                            "A": "='RowSelect28 of Orders'!E1-'RowSelect47 of Products'!B1",
+                            "B": "='RowSelect29 of Product receipts'!B1",
+                            "C": "='RowSelect29 of Product receipts'!A1",
+                            "D": "='RowSelect29 of Product receipts'!C1*'RowSelect28 of Orders'!B1",
+                            "E": "='RowSelect28 of Orders'!F1"
+                        }
+                    ],
+                    "searches": [],
+                    "view_id": "action_3_1596552117889table341596552776953",
+                    "table_id": "msource_31_1596552722278",
+                    "view_name": "RowSelect34 of Material usage list",
+                    "table_name": "Material usage list",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "add",
+                    "filter": ""
+                },
+                {
+                    "changes": [],
+                    "searches": [],
+                    "view_id": "action_3_1596552117889table491596580547496",
+                    "table_id": "msource_49_1596579868011",
+                    "view_name": "RowSelect49 of Places",
+                    "table_name": "Places",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": "AND(F1='RowSelect27 of PO'!J1,    D1='RowSelect28 of Orders'!F1 )"
+                }
+            ]
+        },
+        "action_8_1596562609553": {
+            "metadata": {
+                "is_required": false,
+                "name": "Odrer produced",
+                "id": "action_8_1596562609553"
+            },
+            "tables": [
+                {
+                    "changes": [
+                        {
+                            "recid": 3,
+                            "D": "Yes",
+                            "C": "=B1"
+                        }
+                    ],
+                    "searches": [],
+                    "view_id": "action_8_1596562609553table651596562632904",
+                    "table_id": "msource_2_1596550316850",
+                    "view_name": "RowSelect65 of Orders",
+                    "table_name": "Orders",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": "AND(D1=\"No\",G1='RowSelect66 of Products formulas'!B1)"
+                },
+                {
+                    "changes": [],
+                    "searches": [],
+                    "view_id": "action_8_1596562609553table661596562647822",
+                    "table_id": "msource_44_1596553054138",
+                    "view_name": "RowSelect66 of Products formulas",
+                    "table_name": "Products formulas",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": "A1='RowSelect65 of Orders'!A1"
+                },
+                {
+                    "changes": [
+                        {
+                            "recid": 2,
+                            "B": "=B2+1"
+                        }
+                    ],
+                    "searches": [],
+                    "view_id": "action_8_1596562609553table541596562962932",
+                    "table_id": "msource_67_1596562885281",
+                    "view_name": " View 54 of Dashboard",
+                    "table_name": "Dashboard",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "view",
+                    "filter": ""
+                }
+            ]
+        },
+        "action_13_1596580399217": {
+            "metadata": {
+                "is_required": false,
+                "name": "switch machine to next day",
+                "id": "action_13_1596580399217"
+            },
+            "tables": [
+                {
+                    "changes": [
+                        {
+                            "recid": 3,
+                            "D": "-",
+                            "E": "0",
+                            "F": "=F1+1"
+                        }
+                    ],
+                    "searches": [],
+                    "view_id": "action_13_1596580399217table651596580949699",
+                    "table_id": "msource_49_1596579868011",
+                    "view_name": "RowSelect65 of Places",
+                    "table_name": "Places",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "filter",
+                    "filter": ""
+                }
+            ]
+        },
+        "action_7_1596562923942": {
+            "metadata": {
+                "is_required": false,
+                "name": "All orders produced",
+                "id": "action_7_1596562923942"
+            },
+            "tables": [
+                {
+                    "changes": [
+                        {
+                            "recid": 2
+                        }
+                    ],
+                    "searches": [],
+                    "view_id": "action_7_1596562923942table531596562942338",
+                    "table_id": "msource_67_1596562885281",
+                    "view_name": " View 53 of Dashboard",
+                    "table_name": "Dashboard",
+                    "mode": "rewrite_mode",
+                    "filter_mode": "view",
+                    "filter": "A2=B2"
+                }
+            ]
+        }
+    }
+}
